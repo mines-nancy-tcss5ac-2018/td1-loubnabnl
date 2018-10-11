@@ -22,7 +22,7 @@ def solve():
         ordre=i
         name=L[i]
         somme=0
-        for i in range(1,len(name)):
+        for i in range(1,len(name)-1):
             somme+=ord(name[i])-64
             score=somme*ordre
         scoreT+=score
